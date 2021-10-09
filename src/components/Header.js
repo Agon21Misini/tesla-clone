@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import MenuIcon from '@mui/icons-material/Menu'
 import CloseIcon from '@mui/icons-material/Close'
 import { useSelector } from 'react-redux'
-// import { RemoveScroll } from 'react-remove-scroll/UI'
 
 import { selectCars } from "../features/car/carSlice"
 
@@ -32,7 +31,6 @@ function Header() {
 				<a href="#">Tesla Account</a>
 				<CustomMenu onClick={ changeBurgerStatus } />
 			</RightMenu>
-			{/* <RemoveScroll> */}
 				<BurgerNav show={burgerStatus}>
 					<CloseWrapper>
 						<CustomClose onClick={ changeBurgerStatus } />
